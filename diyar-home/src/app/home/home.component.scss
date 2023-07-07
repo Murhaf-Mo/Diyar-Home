@@ -3,5 +3,42 @@
   line-height: var(--step-8);
   max-width: 70%;
   padding-top: 0.7em;
+  padding-bottom: 1.5em;
   font-family: 'Noto Serif Georgian', serif;
+}
+
+.screenshots{
+  position: relative;
+}
+
+.inst-image{
+  width: 18%;
+  height: auto;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  position: absolute;
+
+}
+
+.screenshot1{
+  top: -5em;
+}
+.screenshot2{
+  top: 9em;
+  left: 20em
+}
+.screenshot3{
+  top: 2em;
+  left: 40em
+
+}
+.screenshot4{
+  top: -7em;
+  left: 60em
+
+}
+.screenshot5{
+  top: 0;
+  left: 80em;
+  z-index: 1;
 }
