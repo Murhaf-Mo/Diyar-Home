@@ -27,7 +27,7 @@ $nb-themes: nb-register-theme((
   color-basic-900: #1C1C1C,
   color-basic-1000: #0133D4,
   color-basic-1100: #091c7a,
-  background-basic-color-1: #212121,
+  background-basic-color-1: #1C1C1C,
   // background-basic-color-2: #1C1C1C,
   background-basic-color-3: #1C1C1C,
   background-basic-color-4: color-basic-100,
@@ -43,4 +43,5 @@ $nb-themes: nb-register-theme((
   text-alternate-color: black,
   text-control-color: black,
   text-primary-active-color: black,
+  font-family-primary: 'Open Sans, sans-serif',
 ), corporate, corporate);

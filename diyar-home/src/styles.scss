@@ -6,3 +6,63 @@
   @include nb-theme-global();
 };
 /* You can add global styles to this file, and also import other style files */
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1240,22,1.25,9,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  /* Step -2: 11.11px → 14.08px */
+  --step--2: clamp(0.69rem, calc(0.63rem + 0.32vw), 0.88rem);
+
+  /* Step -1: 13.33px → 17.60px */
+  --step--1: clamp(0.83rem, calc(0.74rem + 0.46vw), 1.10rem);
+
+  /* Step 0: 16.00px → 22.00px */
+  --step-0: clamp(1.00rem, calc(0.87rem + 0.65vw), 1.38rem);
+
+  /* Step 1: 19.20px → 27.50px */
+  --step-1: clamp(1.20rem, calc(1.02rem + 0.90vw), 1.72rem);
+
+  /* Step 2: 23.04px → 34.38px */
+  --step-2: clamp(1.44rem, calc(1.19rem + 1.23vw), 2.15rem);
+
+  /* Step 3: 27.65px → 42.97px */
+  --step-3: clamp(1.73rem, calc(1.40rem + 1.67vw), 2.69rem);
+
+  /* Step 4: 33.18px → 53.71px */
+  --step-4: clamp(2.07rem, calc(1.63rem + 2.23vw), 3.36rem);
+
+  /* Step 5: 39.81px → 67.14px */
+  --step-5: clamp(2.49rem, calc(1.89rem + 2.97vw), 4.20rem);
+
+  /* Step 6: 47.78px → 83.92px */
+  --step-6: clamp(2.99rem, calc(2.20rem + 3.93vw), 5.25rem);
+
+  /* Step 7: 57.33px → 104.90px */
+  --step-7: clamp(3.58rem, calc(2.55rem + 5.17vw), 6.56rem);
+
+  /* Step 8: 68.80px → 131.13px */
+  --step-8: clamp(4.30rem, calc(2.95rem + 6.78vw), 8.20rem);
+
+  /* Step 9: 82.56px → 163.91px */
+  --step-9: clamp(5.16rem, calc(3.39rem + 8.84vw), 10.24rem);
+
+  --step-10: clamp(8.16rem, calc(3.39rem + 8.84vw), 15.24rem);
+
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.page-container{
+  width: min(90vw, 100rem);
+  margin-inline: auto;
+  padding: 3% 3% 3% 0;
+}
+
+html{
+  background-color: black;
+
+}
