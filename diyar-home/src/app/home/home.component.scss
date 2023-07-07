@@ -5,10 +5,13 @@
   padding-top: 0.7em;
   padding-bottom: 1.5em;
   font-family: 'Noto Serif Georgian', serif;
+  background-repeat: no-repeat;
+
 }
 
 .screenshots{
   position: relative;
+  height: 50em;
 }
 
 .inst-image{
@@ -17,7 +20,6 @@
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   position: absolute;
-
 }
 
 .screenshot1{
@@ -41,4 +43,60 @@
   top: 0;
   left: 80em;
   z-index: 1;
+}
+
+// for text to be read and is gray for each line 70 char
+.gray-text{
+  color: #8C8C8C;
+  font-size: var(--step--1);
+  line-height: var(--step-2);
+  max-width: 120ch;
+}
+
+.paragraph-title{
+  font-size: var(--step-6);
+  line-height: var(--step-3);
+  padding-bottom: 1em;
+  font-weight: lighter;
+}
+.story-telling{
+  padding-bottom: 5em;
+}
+
+.row{
+  display: flex;
+  align-items: end;
+}
+.row-numbers{
+  display: flex;
+  justify-content: space-around;
+}
+.count-card{
+  padding-top: 5em;
+  display: flex;
+  align-items: center;
+}
+
+.count-card > h1{
+  font-size: var(--step-5);
+  font-family: 'Noto Serif Georgian', serif;
+  font-weight: lighter;
+  padding-right: 0.5em;
+  background: linear-gradient(90deg, #0133D4 0%, rgba(1, 51, 212, 0.00) 100%);
+
+}
+.count-card > h2{
+  font-size: var(--step--1);
+  max-width: 40%;
+  font-weight: lighter;
+  padding-right: 0.5em;
+  color: #8C8C8C;
+  line-height: var(--step-0);
+}
+// give it a half background
+strong{
+
+  background: linear-gradient(90deg, #0133D4 0%, rgba(1, 51, 212, 0.00) 100%);
+  background-size: 100% 50%;
+
 }
