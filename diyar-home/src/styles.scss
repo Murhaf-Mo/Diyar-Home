@@ -78,8 +78,7 @@ p{
   width: 90%;
   height: 0.5px;
   background-color: #8C8C8C;
-  margin: 1em 0;
-  margin-bottom: 10em;
+  margin: 1em 0 10em;
 }
 .v-line{
   width: 0.5px;
@@ -98,4 +97,14 @@ p{
 .logo-img-2{
   width: 100px;
   height: auto;
+}
+
+.tap-image{
+
+  width: 60%;
+  height: auto;
+  margin-bottom: 1em;
+  object-fit: scale-down;
+  object-position: center;
+  border-radius: 100em;
 }

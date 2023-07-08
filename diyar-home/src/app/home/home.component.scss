@@ -103,7 +103,8 @@ strong{
 .cards-row{
   display: flex;
   justify-content: space-around;
-  padding: 5em 14em 5em 4em;
+  padding: 5em 14em 10em 4em;
+  overflow: hidden;
 }
 
 .promise-card{
@@ -126,4 +127,21 @@ strong{
   font-size: var(--step-1);
   line-height: var(--step-2);
   padding: 1.5em 0.5em 0.5em;
+}
+
+.form{
+  background: #0155FF;
+  width: 92%;
+  border-radius: 5em;
+  overflow: hidden;
+  margin-bottom: 10em;
+
+}
+
+.form-image{
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+
 }
