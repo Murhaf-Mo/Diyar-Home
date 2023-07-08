@@ -9,7 +9,7 @@ import {
   NbCardModule,
   NbTabsetModule,
   NbActionsModule,
-  NbIconModule, NbInputModule, NbButtonModule
+  NbIconModule, NbInputModule, NbButtonModule, NbCheckboxModule, NbRadioModule
 } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { HomeComponent } from './home/home.component';
@@ -37,6 +37,8 @@ import {NgOptimizedImage} from "@angular/common";
     NgOptimizedImage,
     NbInputModule,
     NbButtonModule,
+    NbCheckboxModule,
+    NbRadioModule,
 
   ],
   providers: [],

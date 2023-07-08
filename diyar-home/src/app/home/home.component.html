@@ -107,9 +107,25 @@
 
 
 <div class="form">
-  <img ngSrc="/assets/Screenshot%202023-07-08%20at%2011.27.11%E2%80%AFPM.png" loading="lazy" alt="hero"
-       class="form-image" height="892" width="1952">
+  <div>
+    <div class="form-title" >Let's make it happen</div>
+    <img ngSrc="/assets/Screenshot%202023-07-08%20at%2011.27.11%E2%80%AFPM.png" loading="lazy" alt="hero"
+         class="form-image" height="892" width="1952">
+  </div>
 
+  <div class="form-text-con">
+    <input type="text" nbInput fullWidth status="control" placeholder="Control">
+    <nb-radio status="control" value="1">Option 1</nb-radio>
+    <nb-radio status="control" value="2">Option 1</nb-radio>
+    <nb-radio status="control" value="3">Option 2</nb-radio>
+    <nb-radio status="control" value="4">Option 3</nb-radio>
+    <input type="text" nbInput fullWidth status="control" placeholder="Control">
+    <input type="text" nbInput fullWidth status="control" placeholder="Control">
+
+    <textarea nbInput fullWidth placeholder="Textarea" status="control"></textarea>
+    <button nbButton outline status="control">Primary</button>
+    <nb-checkbox status="control"> Toggle me</nb-checkbox>
+  </div>
 
 
 </div>
