@@ -4,7 +4,7 @@
 
   <nb-layout-column>
     <div class="flex-row">
-      <img src="/assets/diyar-logo.png" alt="hero" class="logo-img">
+      <img ngSrc="/assets/diyar-logo.png" loading="lazy" alt="logo" class="logo-img" height="241" width="400">
 
       <nb-tabset >
 
@@ -32,19 +32,14 @@
         <nb-tab tabTitle="Contact">
           <p>List of <strong>users</strong>.</p>
         </nb-tab>
-
       </nb-tabset>
     </div>
-
-
-
 
     <router-outlet></router-outlet>
 
   </nb-layout-column>
 
-  <nb-layout-footer fixed>
-    <!-- Insert footer here -->
-  </nb-layout-footer>
 
 </nb-layout>
+<app-footer></app-footer>
+
