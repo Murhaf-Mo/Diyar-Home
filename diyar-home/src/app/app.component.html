@@ -4,7 +4,7 @@
 
   <nb-layout-column>
     <div class="flex-row">
-      <img src="/assets/diyar-logo.png" alt="hero" class="logo-img">
+      <img ngSrc="/assets/diyar-logo.png" loading="lazy" alt="logo" class="logo-img" height="241" width="400">
 
       <nb-tabset >
 
@@ -12,39 +12,54 @@
           <app-home></app-home>
         </nb-tab>
         <nb-tab tabTitle="Service">
-          <p>List of <strong>orders</strong>.</p>
-        </nb-tab>
-        <nb-tab tabTitle="How We Work">
-          <p>List of <strong>users</strong>.</p>
-        </nb-tab>
-        <nb-tab tabTitle="Works">
-          <p>List of <strong>orders</strong>.</p>
-        </nb-tab>
-        <nb-tab tabTitle="Insight">
-          <p>List of <strong>orders</strong>.</p>
-        </nb-tab>
-        <nb-tab tabTitle="FQA">
-          <p>List of <strong>users</strong>.</p>
-        </nb-tab>
-        <nb-tab tabTitle="NewsRoom">
-          <p>List of <strong>orders</strong>.</p>
-        </nb-tab>
-        <nb-tab tabTitle="Contact">
-          <p>List of <strong>users</strong>.</p>
+          <h1> Welcome to <strong>Services</strong></h1>
+          <img ngSrc="/assets/Coming_Soon_-_Dark.jpg" loading="lazy" alt="hero"
+             class="tap-image"   height="2048" width="2048">
         </nb-tab>
 
+        <nb-tab tabTitle="About Us">
+          <h1> Welcome to <strong>About US</strong></h1>
+          <img ngSrc="/assets/Connection_Lost_-_Dark_.jpg" loading="lazy" alt="hero"
+               class="tap-image"   height="2048" width="2048">
+        </nb-tab>
+
+        <nb-tab tabTitle="Works">
+          <h1> Welcome to <strong>Works</strong></h1>
+          <img ngSrc="/assets/Deleted_-_Dark.jpg" loading="lazy" alt="hero"
+               class="tap-image"   height="2048" width="2048">
+        </nb-tab>
+
+        <nb-tab tabTitle="Insight">
+          <h1> Welcome to <strong>Insights</strong></h1>
+          <img ngSrc="/assets/Message_Sent_-_Dark.jpg" loading="lazy" alt="hero"
+               class="tap-image"   height="2048" width="2048">
+        </nb-tab>
+
+        <nb-tab tabTitle="FAQ">
+          <h1> Welcome to <strong>FAQ</strong></h1>
+          <img ngSrc="/assets/No_Images_-_Dark.jpg" loading="lazy" alt="hero"
+               class="tap-image"   height="2048" width="2048">
+        </nb-tab>
+
+        <nb-tab tabTitle="Career">
+          <h1> Welcome to <strong>Careers</strong></h1>
+          <img ngSrc="/assets/Page_Not_Found_-_Dark.jpg" loading="lazy" alt="hero"
+               class="tap-image"   height="2048" width="2048">
+        </nb-tab>
+
+        <nb-tab tabTitle="Contact">
+          <h1> Welcome to <strong>Contacts</strong></h1>
+          <img ngSrc="/assets/Success_-_Dark.jpg" loading="lazy" alt="hero"
+               class="tap-image"   height="2048" width="2048">
+        </nb-tab>
       </nb-tabset>
     </div>
-
-
-
 
     <router-outlet></router-outlet>
 
   </nb-layout-column>
 
-  <nb-layout-footer fixed>
-    <!-- Insert footer here -->
-  </nb-layout-footer>
 
 </nb-layout>
+<app-footer></app-footer>
+

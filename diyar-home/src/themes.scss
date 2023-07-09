@@ -6,7 +6,12 @@ $nb-themes: nb-register-theme((
 
 
   // add your variables here like:
-
+  input-border-style: hidden,
+  button-outline-color: #0133D4,
+  button-outline-width: 0,
+  button-filled-basic-background-color: black,
+  button-filled-basic-background-color-hover: black,
+  button-filled-basic-border-color: black,
   color-primary-100: #0133D4,
   color-primary-200: #0133D4,
   color-primary-300: #0133D4,
@@ -16,6 +21,7 @@ $nb-themes: nb-register-theme((
   color-primary-700: #1a34b8,
   color-primary-800: #102694,
   color-primary-900: #091c7a,
+  text-control-color: white,
   // color-basic-100: white,
   // color-basic-200: #eefafc,
   // color-basic-300: #e8f5fa,
@@ -28,8 +34,8 @@ $nb-themes: nb-register-theme((
   color-basic-1000: #0133D4,
   color-basic-1100: #091c7a,
   background-basic-color-1: #1C1C1C,
-  // background-basic-color-2: #1C1C1C,
-  background-basic-color-3: #1C1C1C,
+   background-basic-color-2: #1C1C1C,
+  background-basic-color-3: #212121,
   background-basic-color-4: color-basic-100,
   border-basic-color-1: color-basic-700,
   border-basic-color-2: color-basic-800,
@@ -41,7 +47,6 @@ $nb-themes: nb-register-theme((
   text-basic-color: white,
   //text-primary-color: color-basic-100,
   text-alternate-color: black,
-  text-control-color: black,
   text-primary-active-color: black,
   font-family-primary: 'Open Sans, sans-serif',
 ), corporate, corporate);

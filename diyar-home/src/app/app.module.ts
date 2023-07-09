@@ -9,15 +9,18 @@ import {
   NbCardModule,
   NbTabsetModule,
   NbActionsModule,
-  NbIconModule
+  NbIconModule, NbInputModule, NbButtonModule, NbCheckboxModule, NbRadioModule
 } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +34,11 @@ import { HomeComponent } from './home/home.component';
     NbTabsetModule,
     NbActionsModule,
     NbIconModule,
+    NgOptimizedImage,
+    NbInputModule,
+    NbButtonModule,
+    NbCheckboxModule,
+    NbRadioModule,
 
   ],
   providers: [],
