@@ -1,0 +1,10 @@
+
+<nb-chat status="primary" title="Chat With The World">
+  <nb-chat-message *ngFor="let msg of messages" [message]="msg.message" [reply]="msg.reply"
+                   [sender]="msg.user" [date]="date" [avatar]="msg.avatar">
+    >
+  </nb-chat-message>
+
+  <nb-chat-form (send)="sendMessage($event)" [dropFiles]="true">
+  </nb-chat-form>
+</nb-chat>
